@@ -11,6 +11,15 @@
   color: #333333;
 }
 
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
 .spacing {
   letter-spacing: 0.15rem;
 }
@@ -66,9 +75,30 @@
   max-width: 560px;
 }
 
+.info-image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.info-section {
+  padding: 80px 20px;
+}
+
+.info-text {
+  font-size: 1.6rem;
+}
+
 @media screen and (min-width: 768px) {
   .hero-info {
     width: 50%;
+  }
+
+  .info-section {
+    padding: 100px 65px;
+  }
+
+  .info-text {
+    font-size: 1.7rem;
   }
 }
 
@@ -88,5 +118,28 @@
   .hero-btn {
     font-size: 24px;
     padding: 10px 40px;
+  }
+
+  .info-image {
+    width: 50%;
+  }
+
+  .info-section {
+    padding: 80px 75px;
+    width: 50%;
+  }
+
+  .info-text {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .info-section {
+    padding: 165px 75px;
+  }
+
+  .info-text {
+    font-size: 2rem;
   }
 }

@@ -8,4 +8,24 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'GothamLight', sans-serif;
+  color: #333333;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333333;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0 1rem;
+  }
+
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: solid 1px #333333;
+  }
 }

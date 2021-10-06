@@ -16,10 +16,18 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-light navbar-expand-lg bg-white p-3 fixed-top">
+    <nav
+      class="
+        navbar navbar-light navbar-expand-lg
+        bg-white
+        py-3
+        px-3 px-md-5
+        fixed-top
+      "
+    >
       <div class="container-fluid">
         <a href="#" class="navbar-brand">
-          <span class="h1">Discover Style</span>
+          <span class="h2 spacing">Discover Style</span>
         </a>
 
         <button
@@ -46,6 +54,32 @@
         </div>
       </div>
     </nav>
+
+    <!-- Hero -->
+    <section
+      class="
+        hero-bg
+        px-3 px-md-5
+        top-buffer
+        d-flex
+        align-items-center
+        text-center text-md-start
+      "
+    >
+      <div class="container-fluid h-100">
+        <div class="h-100 d-flex justify-content-between align-items-center">
+          <div class="hero-info">
+            <p class="hero">WELCOME TO OUR SALON</p>
+            <button class="btn btn-outline-primary hero-btn">BOOK</button>
+          </div>
+          <img
+            class="w-50 align-self-end hero-img d-none d-md-block"
+            src="images/heroimg.png"
+            alt="Welcome"
+          />
+        </div>
+      </div>
+    </section>
 
     <!-- Scripts -->
     <script src="" async defer></script>

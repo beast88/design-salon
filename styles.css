@@ -84,8 +84,8 @@ a:hover {
   padding: 80px 20px;
 }
 
-.info-text {
-  font-size: 1.6rem;
+.bg-light {
+  background-color: #f7f7f7;
 }
 
 @media screen and (min-width: 768px) {
@@ -95,10 +95,6 @@ a:hover {
 
   .info-section {
     padding: 100px 65px;
-  }
-
-  .info-text {
-    font-size: 1.7rem;
   }
 }
 
@@ -129,17 +125,13 @@ a:hover {
     width: 50%;
   }
 
-  .info-text {
-    font-size: 1.8rem;
+  .info-width {
+    width: 50%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .info-section {
     padding: 165px 75px;
-  }
-
-  .info-text {
-    font-size: 2rem;
   }
 }

@@ -11,6 +11,10 @@
   color: #333333;
 }
 
+i {
+  font-size: 1.75rem;
+}
+
 a {
   text-decoration: none;
   color: #333333;
